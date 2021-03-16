@@ -1,0 +1,11 @@
+/*!
+ * jQuery Vertical News Ticker Plugin
+ *
+ * http://www.jugbit.com/jquery-vticker-vertical-news-ticker/
+ * http://github.com/kasp3r/vTicker
+ *
+ * Copyright 2013 Tadas Juozapaitis
+ * Released under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ */
+!function(o){o.fn.vTicker=function(h){h=o.extend({speed:700,pause:4e3,showItems:3,animation:"",mousePause:!0,isPaused:!1,direction:"up",height:0},h);return moveUp=function(e,i,n,t){var s,h;n.isPaused&&!t||(h=(s=e.children("ul")).children("li:first").clone(!0),0<n.height&&(i=s.children("li:first").height()),s.animate({top:"-="+i+"px"},n.speed,function(){o(this).children("li:first").remove(),o(this).css("top","0px")}),"fade"==n.animation&&(s.children("li:first").fadeOut(n.speed),0==n.height&&s.children("li:eq("+n.showItems+")").hide().fadeIn(n.speed).show()),h.appendTo(s))},moveDown=function(e,i,n,t){var s,h;n.isPaused&&!t||(h=(s=e.children("ul")).children("li:last").clone(!0),0<n.height&&(i=s.children("li:first").height()),s.css("top","-"+i+"px").prepend(h),s.animate({top:0},n.speed,function(){o(this).children("li:last").remove()}),"fade"==n.animation&&(0==n.height&&s.children("li:eq("+n.showItems+")").fadeOut(n.speed),s.children("li:first").hide().fadeIn(n.speed).show()))},this.each(function(){var e=o(this),i=0,n=e.closest(".inf-post-scroling-wdgt"),t="";e.css({overflow:"hidden",position:"relative"}).children("ul").css({position:"absolute",margin:0,padding:0}).children("li").css({margin:0,padding:0}),0==h.height?(e.children("ul").children("li").each(function(){o(this).height()>i&&(i=o(this).height())}),e.children("ul").children("li").each(function(){o(this).height(i)}),e.height(i*h.showItems)):e.height(h.height),e.addClass("inf-vticker-initialized");function s(){t=setInterval(function(){("up"==h.direction?moveUp:moveDown)(e,i,h,!1)},h.pause)}s(),h.mousePause&&!h.isPaused&&e.bind("mouseenter",function(){h.isPaused=!0}).bind("mouseleave",function(){h.isPaused=!1}),n.find(".post-vticker-up").click(function(){clearInterval(t),moveUp(e,i,h,!0),s()}),n.find(".post-vticker-down").click(function(){clearInterval(t),moveDown(e,i,h,!0),s()})})}}(jQuery);

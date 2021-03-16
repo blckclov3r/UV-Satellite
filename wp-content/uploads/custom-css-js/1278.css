@@ -1,0 +1,104 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+
+
+.side-header {
+   width: 100%;
+   display: block !important;
+   background-color: #006937;
+   color: #fff;
+   margin-top: -2px;
+   padding: 0.3rem 0.3rem 0.3rem 0.6rem;
+
+   text-transform: uppercase;
+ }
+
+
+ 
+ .list-group-item {
+   position: relative;
+   display: block;
+   padding: .7rem 1.05rem;
+   background-color: #fff;
+   border: 1px solid rgba(0, 0, 0, 0.125);
+   font-family: "Titillium Web", sans-serif;
+   margin-right: 1.35rem;
+ 
+ }
+
+ .list-group {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none;
+ }
+
+
+
+
+ .list-group li a {
+   color: #006937;
+   padding-left: 20px;
+   cursor: pointer;
+ }
+ 
+ .list-group li a:hover {
+   color: #03b549 !important;
+ }
+
+.list-group-item.active {
+   z-index: 2;
+   background-color: #fff;
+   border-color: #03b549;
+ }
+
+
+ .list-group li a:hover {
+   color: #03b549 !important;
+ }
+ 
+ .list-group-item:first-child {
+   border-top-left-radius: 0.15rem;
+   border-top-right-radius: 0.15rem;
+ }
+ 
+ .list-group-item:last-child {
+   margin-bottom: 0;
+   border-bottom-right-radius: 0.15rem;
+   border-bottom-left-radius: 0.15rem;
+ }
+ 
+ .list-group-item.disabled,
+ .list-group-item:disabled {
+   color: #6c757d;
+   pointer-events: none;
+   background-color: #fff;
+ }
+
+ul.list-group {
+    margin-bottom: .5rem;
+}
+
+.fas, .fa{
+  color: #006937;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
