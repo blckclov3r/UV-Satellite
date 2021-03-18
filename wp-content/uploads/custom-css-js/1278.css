@@ -100,5 +100,64 @@ ul.list-group {
   color: #006937;
 }
 
-</style>
+.ul-nbullet ul{
+  list-style-type: none;
+  margin-left: -1rem;
+}
+
+
+
+/* footer images */
+img.image.wp-image-1393.attachment-398x65.size-398x65{
+  margin-left: -10px;
+}
+
+img.image.wp-image-1390.attachment-full.size-full {
+    margin-left: -10px;
+}
+
+/* post carousel */
+.single-content h1+*, .single-content h2+*, .single-content h3+*, .single-content h4+*, .single-content h5+*, .single-content h6+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bdp-post-carousel.bdp-design-1 .bdp-post-carousel-content {
+    background: #fff;
+    border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    border-bottom-right-radius: 10px;
+}
+
+h2.bdp-post-title {
+    font-size: 16px;
+    background: rgb(0 105 55);
+    color: rgb(255 255 255);
+    padding: 15px 18px;
+}
+.bdp-post-content {
+    padding: 15px 10px;
+}
+
+.bdp-post-image-bg {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100% !important;
+}
+
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}</style>
 <!-- end Simple Custom CSS and JS -->

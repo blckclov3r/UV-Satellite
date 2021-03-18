@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog Designer Pack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-06 05:18+0000\n"
+"PO-Revision-Date: 2020-06-06 05:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#: includes/bdp-ajax-functions.php:71
+#: includes/shortcodes/bdp-post-gridbox.php:118
+#: includes/shortcodes/bdp-post-list.php:114
+#: includes/shortcodes/bdp-post-masonry.php:125
+#: includes/shortcodes/bdp-post.php:122
+#: includes/shortcodes/bdp-recent-post-carousel.php:135
+#: includes/shortcodes/bdp-recent-post-slider.php:133
+msgid "Reply"
+msgstr "Odpowiedź "
+
+#: includes/bdp-ajax-functions.php:71
+#: includes/shortcodes/bdp-post-gridbox.php:118
+#: includes/shortcodes/bdp-post-list.php:114
+#: includes/shortcodes/bdp-post-masonry.php:125
+#: includes/shortcodes/bdp-post.php:122
+#: includes/shortcodes/bdp-recent-post-carousel.php:135
+#: includes/shortcodes/bdp-recent-post-slider.php:133
+msgid "Replies"
+msgstr "Odpowiedzi"
+
+#: includes/bdp-functions.php:204
+#, fuzzy
+#| msgid "« Previous"
+msgid "Previous"
+msgstr "« Poprzedni"
+
+#: includes/bdp-functions.php:205
+#, fuzzy
+#| msgid "Next »"
+msgid "Next"
+msgstr "Następna »"
+
+#: includes/bdp-functions.php:228 includes/bdp-functions.php:242
+#: includes/bdp-functions.php:257 includes/bdp-functions.php:270
+#: includes/bdp-functions.php:283 includes/bdp-functions.php:297
+msgid "Design 1"
+msgstr ""
+
+#: includes/bdp-functions.php:229 includes/bdp-functions.php:243
+#: includes/bdp-functions.php:258 includes/bdp-functions.php:271
+#: includes/bdp-functions.php:298
+msgid "Design 2"
+msgstr ""
+
+#: includes/bdp-functions.php:312
+msgid "Effect 1"
+msgstr ""
+
+#: includes/bdp-functions.php:313
+msgid "Effect 2"
+msgstr ""
+
+#: includes/class-bdp-script.php:97
+msgid "Sorry, No more post to display."
+msgstr "Przepraszamy, nie ma więcej postów do wyświetlenia."
+
+#: includes/admin/all-shortcode-page.php:37
+msgid "Shortcodes - Blog Designer Pack"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:45
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:48
+msgid "Post Grid Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:49
+msgid "Post List Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:50
+msgid "Post Masonry Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:51
+msgid "Post Slider Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:52
+msgid "Post Carousel Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:53
+msgid "Post gridbox Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:54
+msgid "Post Ticker Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:55
+msgid "Post Timeline Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:55
+#: includes/admin/all-shortcode-page.php:56
+#: includes/admin/all-shortcode-page.php:57
+#: includes/admin/all-shortcode-page.php:58
+#: includes/admin/all-shortcode-page.php:61
+#: includes/admin/all-shortcode-page.php:62
+msgid "Check Demo"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:56
+msgid "Post gridbox Slider Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:57
+msgid "Featured Post Functionality"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:58
+msgid "Trending Post Functionality"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:59
+msgid "Works with any Custom Post type."
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:60
+msgid "Social Sharing Functionality"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:61
+msgid "Category Grid Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:62
+msgid "Category Slider Shortcode"
+msgstr ""
+
+#: includes/admin/all-shortcode-page.php:84
+msgid "Blog Designer Pack Pro"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/class-bdp-admin.php:41
+msgid "Blog Designer Pack"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:44
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:105
+#, php-format
+msgid ""
+"Hey! It looks like that you are using Blog Designer Pack for a while. Would "
+"you like to a look at the Pro version? <a href=\"%s\">Click here</a> for the "
+"amazing features."
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:106
+#, php-format
+msgid ""
+"Hey! Do you know Blog Designer Pack Pro have 90+ premium layouts? <a "
+"href=\"%s\">Click here</a> to take a look."
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:107
+#, php-format
+msgid ""
+"Hey! Blog Designer Pack Pro supports Custom Post type and Custom taxonomy. "
+"<a href=\"%s\">Upgrade now</a> to create a any layout for Custom Post type."
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:108
+#, php-format
+msgid ""
+"Hey! Do you want more layouts for Post Slider and Post Carousel? <a "
+"href=\"%s\">Upgrade now</a>"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:109
+#, php-format
+msgid ""
+"Load More or Infinite Scrolling pagination can be a good feature for your "
+"blog page with Blog Designer Pack. <a href=\"%s\">Take a look</a>"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:110
+#, php-format
+msgid ""
+"Create Category Grid or Category Slider with Blog Designer Pack Pro. <a "
+"href=\"%s\">Take a look</a>"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:111
+#, php-format
+msgid ""
+"Create Post Timeline layout with Blog Designer Pack Pro. <a href=\"%s\">"
+"Upgrade now</a>"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:112
+#, php-format
+msgid ""
+"Display Featured Post or Trending Post with Blog Designer Pack Pro. <a "
+"href=\"%s\">Upgrade now</a>"
+msgstr ""
+
+#: includes/admin/class-bdp-admin.php:113
+#, php-format
+msgid ""
+"Use social sharing feature for Post with Blog Designer Pack Pro. <a "
+"href=\"%s\">Upgrade now</a>"
+msgstr ""
+
+#: includes/admin/getting-started.php:45
+msgid "Getting Started - Blog Designer Pack"
+msgstr ""
+
+#: includes/shortcodes/bdp-post-masonry.php:54
+msgid "Load More Posts"
+msgstr "Pokaż więcej wpis"
+
+#: includes/shortcodes/bdp-post-masonry.php:145
+msgid "Loading"
+msgstr "Wczytuję"
+
+#: includes/shortcodes/bdp-post-ticker.php:18
+msgid "Latest Post"
+msgstr "Najnowsza wpis"
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:23
+msgid "Display Latest WP Post in a sidebar with vertical slider."
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:24
+msgid "BDP-Post Scrolling Widget"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:63
+msgid "Latest Posts Scrolling"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:81
+#: includes/widgets/class-bdp-latest-post.php:75
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:87
+#: includes/widgets/class-bdp-latest-post.php:87
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:92
+#: includes/widgets/class-bdp-latest-post.php:92
+msgid "All"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:103
+#: includes/widgets/class-bdp-latest-post.php:81
+msgid "Number of Items"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:109
+#: includes/widgets/class-bdp-latest-post.php:103
+msgid "Query Offset"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:111
+#: includes/widgets/class-bdp-latest-post.php:105
+msgid ""
+"Query `offset` parameter to exclude number of post. Leave empty for default."
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:112
+#: includes/widgets/class-bdp-latest-post.php:106
+msgid "Note: This parameter will not work when Number of Items is set to -1."
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:118
+#: includes/widgets/class-bdp-latest-post.php:112
+msgid "Display Date"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:124
+#: includes/widgets/class-bdp-latest-post.php:118
+msgid "Display Category"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:129
+#: includes/widgets/class-bdp-latest-post.php:123
+msgid "Display Short Content"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:134
+#: includes/widgets/class-bdp-latest-post.php:128
+msgid "Content words limit"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:136
+#: includes/widgets/class-bdp-latest-post.php:130
+msgid "Content words limit will only work if Display Short Content checked"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:142
+msgid "Display Thumbnail in left side"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:148
+#: includes/widgets/class-bdp-latest-post.php:136
+msgid "Open Link in a New Tab"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:153
+msgid "Height"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:159
+msgid "Pause"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:165
+msgid "Speed"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post-scrolling-widget.php:182
+#: includes/widgets/class-bdp-latest-post.php:60
+#: includes/widgets/class-bdp-latest-post.php:151
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post.php:23
+msgid "Display Latest WP Post in a sidebar."
+msgstr ""
+
+#: includes/widgets/class-bdp-latest-post.php:24
+msgid "BDP-Latest Post Widget"
+msgstr ""
+
+#: templates/carousel/design-1.php:55 templates/carousel/design-2.php:55
+#: templates/grid/design-1.php:69 templates/grid/design-2.php:69
+#: templates/grid-box/design-1.php:56 templates/list/design-1.php:57
+#: templates/list/design-2.php:58 templates/masonry/design-1.php:69
+#: templates/masonry/design-2.php:70 templates/slider/design-1.php:46
+#: templates/slider/design-2.php:50
+msgid "Read More"
+msgstr "Czytaj dalej"
+
+#. Description of the plugin
+msgid ""
+"Display Posts on your website with 6 layouts (2 designs for each layout) "
+"plus 1 Ticker and 2 Widgets."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://premium.infornweb.com/news-blog-designer-pack-pro/"
+msgstr ""
+
+#. Author of the plugin
+msgid "InfornWeb"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://premium.infornweb.com"
+msgstr ""

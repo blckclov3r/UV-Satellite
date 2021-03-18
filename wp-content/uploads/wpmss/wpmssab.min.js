@@ -1,0 +1,1 @@
+var allowedBrowsers=["Mobile","IEWin7","Edge","Chrome","Safari","Firefox","other"];

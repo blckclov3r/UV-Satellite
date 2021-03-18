@@ -1,0 +1,70 @@
+/***** Vertical Tabs *****/
+.bdp-tab-header{background-color: #fff; border-color: #e2dddb; border-style: solid; border-width: 1px 1px 0; box-sizing: border-box; font-size: 16px; font-weight: 600;}
+.bdp-tab-header-title{display: inline-block; padding: 12px 10px;}
+.bdp-vtab-wrap, .bdp-vtab-wrap *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box; outline:none;}
+.bdp-vtab-wrap{background-color: #f5f5f5; border:1px solid #e2dddb;}
+.bdp-vtab-wrap .form-table{clear: none; margin: 0;}
+.bdp-vtab-wrap .bdp-tab-info-wrap{border-bottom: 1px solid #e2dddb; padding: 0 0 5px 0;}
+.bdp-vtab-wrap .bdp-tab-title{font-size: 14px; font-weight: 600;}
+.bdp-vtab-wrap .bdp-tab-desc{font-size: 13px; font-style: italic; margin: 5px 0 0 0; display: block;}
+.bdp-vtab-nav-wrap{float: left; list-style: outside none none; padding: 0 !important; position: relative; width: 180px; word-wrap: break-word; margin: 0 !important; background-color: #f5f5f5;}
+.bdp-vtab-nav-wrap .bdp-vtab-nav{display: block; margin: 0; padding: 0; position: relative; width: 100%;}
+.bdp-vtab-nav-wrap .bdp-vtab-nav a {color: #222; display: block; padding: 12px 10px; width: 100%; text-decoration: none; box-shadow: none; border-width: 1px; border-color: #e2dddb; border-style: none solid solid none; -webkit-transition: box-shadow 0.2s ease-in-out; transition: box-shadow 0.2s ease-in-out;}
+.bdp-vtab-nav-wrap .bdp-vtab-nav a:hover{box-shadow:3px 0 0 0 #222 inset;}
+.bdp-vtab-nav.bdp-active-vtab a{border-style: none none solid none; background-color:#fff; box-shadow:3px 0 0 0 #222 inset;}
+.bdp-vtab-cnt-wrp{background: #fff none repeat scroll 0 0; margin-left: 179px; padding: 10px 20px 10px 20px; min-height: 225px; border-left: 1px solid #e2dddb;}
+.bdp-vtab-cnt{display: none;}
+/***** Shortcode Builder *****/
+
+.bdp-shrt-fields-panel *{box-sizing: border-box;}
+.bdp-shrt-fields-panel{float: left; list-style: outside none none; padding:0; position: relative; width: 300px; word-wrap: break-word; margin:0; transition: all 0.5s ease-in-out 0s; -webkit-transition: all 0.5s ease-in-out 0s;}
+.bdp-shrt-accordion{background-color: #f5f5f5; border:1px solid #e2dddb; max-height:670px; overflow:auto;}
+.bdp-shrt-preview-wrap{margin-left: 350px;}
+.bdp-shrt-preview-wrap *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box; outline:none;}
+.bdp-shrt-preview-wrap iframe{position: absolute; height: 100%; width: 100%; padding: 15px 0;}
+.bdp-shrt-preview-window{position: relative; min-height: 550px; background-color: #fff; border: 1px solid #e2dddb;}
+.bdp-shrt-box-wrp{margin:0 0 5px 0;}
+.bdp-shrt-box{width: 100%; resize: none; height: 65px;}
+.bdp-shrt-loader{display: none; position: absolute; height: 100%; width: 100%; opacity: 0.8; background: url("../images/spinner.gif") center center no-repeat; background-color: #fff; background-position: center center;}
+.bdp-shrt-error{display: none; position: absolute; color: #a94442; background-color: #f2dede; border:1px solid #ebccd1; max-width:300px; width: 100%; left:0; right:0; top: 49%; margin:auto; padding:10px; text-align: center;}
+.bdp-shrt-heading{margin: 0 0 10px 0; font-size: 14px; font-weight: 600;}
+.bdp-shrt-heading .bdp-cust-heading-info{cursor:help;}
+.bdp-shrt-tool-wrap{float:right;}
+.bdp-shrt-tool-wrap .button{border-radius:0; border:0;}
+.bdp-shrt-dwp{cursor: pointer; height: auto; width: auto; border: 1px solid #ccc; padding: 2px; background-color: #fff; transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s;}
+.bdp-shrt-dwp-active{background-color: #32373C; border: 1px solid #32373C; color: #fff;}
+
+.bdp-shrt-acc-header{background-color: #fff; padding: 12px; font-size: 14px; font-weight: 600; cursor: pointer; border-color: #e2dddb; border-style: none none solid none; border-width: 1px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.bdp-shrt-acc-header span.ui-icon{float: right;}
+.bdp-shrt-acc-header.ui-accordion-header-active{border:0;}
+.bdp-shrt-acc-header-premium{background-color:tomato; color:#fff;}
+.bdp-shrt-acc-cnt{display: none; background-color: #fff; padding: 12px; border-bottom:1px solid #e2dddb;}
+.bdp-shrt-acc-cnt-premium{position:relative;}
+.bdp-shrt-acc-cnt-premium:after{content:""; position:absolute; width:100%; left:0; top:0; bottom:0; background:rgba(255,255,255,0.5); }
+.bdp-shrt-pro-wrap{text-align:center; position:relative; z-index:1;}
+.bdp-shrt-pro-button{ }
+
+.bdp-shrt-fields-panel .bdp-customizer-row{margin: 0 0 15px 0;}
+.bdp-shrt-fields-panel .description{margin: 2px 0 0 0; display: block; color: #555d66; font-size: 12px; line-height: 1.5;}
+.bdp-shrt-fields-panel .bdp-shrt-lbl{display: block; font-size: 14px; line-height: 24px; font-weight: 600; margin-bottom: 4px;}
+.bdp-shrt-fields-panel .bdp-shrt-field-lbl{margin:0 5px 0 0;}
+.bdp-shrt-fields-panel input[type="number"], .bdp-shrt-fields-panel input[type="search"], .bdp-shrt-fields-panel input[type="tel"], .bdp-shrt-fields-panel input[type="url"], .bdp-shrt-fields-panel input[type="text"], .bdp-shrt-fields-panel input[type="password"], .bdp-shrt-fields-panel input[type="email"], .bdp-shrt-fields-panel select{width: 100%; margin: 0;}
+.bdp-shrt-full-preview .bdp-shrt-fields-panel{
+	-webkit-transform: translateX(-150%);
+	transform: translateX(-150%);
+	height: 0;
+}
+.bdp-shrt-full-preview .bdp-shrt-preview-wrap{margin-left:0; transition: all 0.5s ease-in-out 0s; -webkit-transition: all 0.5s ease-in-out 0s;}
+
+.bdp-shrt-toolbar{margin: 0 0 15px 0; text-align: right;}
+.bdp-shrt-toolbar .bdp-shrt-switcher{min-width: 200px; max-width: 200px; margin-top:0; margin-bottom:0; min-height:30px;}
+.bdp-shrt-toolbar .bdp-shrt-generate-help i{font-size: 30px; height: auto; width: auto; cursor: pointer; vertical-align: middle;}
+.bdp-shrt-note{margin:2px 0; color:red;}
+@media only screen and (max-width:320px) {
+	.bdp-shrt-toolbar .bdp-shrt-switcher{min-width: auto; max-width: 160px;}
+}
+@media only screen and (max-width: 568px) {
+	.bdp-shrt-fields-panel{max-height: none; width: 100%; float: none;}
+	.bdp-shrt-preview-wrap{margin: 20px 0 0 0;}
+	.bdp-shrt-tool-wrap .bdp-shrt-dwp{display: none;}
+}
