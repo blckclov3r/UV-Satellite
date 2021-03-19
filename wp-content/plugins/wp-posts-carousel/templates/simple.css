@@ -1,0 +1,56 @@
+/*
+* simple theme
+*/
+.simple-theme.wp-posts-carousel { overflow: hidden; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-slide { display: none; padding: 1%; position: relative; }
+.simple-theme.wp-posts-carousel.owl-loaded .wp-posts-carousel-slide { display: block; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-container { border: 1px solid transparent; padding: 10px; transition: all 0.3s ease 0s; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-container:hover { border-color: #ebebeb; background: #fcfcfc; }
+/*
+* post's image
+*/
+.simple-theme.wp-posts-carousel .wp-posts-carousel-image { text-align: center; vertical-align: central; overflow: hidden; padding-top:10px; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-image a { display: inline-block; width: 100%; text-align: center; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-image img {display: block; margin: 0 auto; width: auto; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-image img.owl-lazy {opacity: 0;}
+/*
+* post's details
+*/
+.simple-theme.wp-posts-carousel .wp-posts-carousel-details { padding: 0 5px 10px 5px; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-title { text-align: center; font-size: 18px; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-desc { font-size: 12px; color: #666; padding: 2%; margin-bottom: 2%; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-created-date { padding: 0; margin: 0;font-size: 12px; color: #666; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-categories { padding: 0; margin: 0; background: #eee; padding: 5px; font-size: 12px; position: absolute; top: 3px; left: 4px;  }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-buttons { text-align: center; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-buttons a { padding-right: 5px; }
+/*
+* tags
+*/
+.simple-theme.wp-posts-carousel .wp-posts-carousel-tags { font-size: 11px; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-tags a { padding: 2px 10px; background: #fafafa; color: #666; line-height: 24px; text-decoration: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; transition: all 0.3s ease 0s; }
+.simple-theme.wp-posts-carousel .wp-posts-carousel-tags a:hover { color: #6E95B6; }
+/*
+* controls
+*/
+.simple-theme.wp-posts-carousel .owl-controls { *height: 0; }
+/*
+* navigation
+*/
+.simple-theme.wp-posts-carousel .owl-nav div:before  { font-family: "FontAwesome"; font-size: 30px; display: inline-block; content: '\f104'; }
+.simple-theme.wp-posts-carousel .owl-controls .owl-nav div  {background: #fff; color: #ccc; border: 1px solid #ccc; text-align: center; text-decoration: none; display: block; width: 0px; height: 50px;line-height: 50px; margin: -45px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; border-radius: 50%; -webkit-border-radius: 50%; }
+.simple-theme.wp-posts-carousel .owl-controls .owl-nav .owl-prev { left: -50px; padding: 0px 30px 0px 17px; }
+.simple-theme.wp-posts-carousel .owl-nav .owl-next:before  { content: '\f105'; }
+.simple-theme.wp-posts-carousel .owl-controls .owl-nav .owl-next { right: -50px; padding: 0px 27px 0px 20px; }
+.simple-theme.wp-posts-carousel:hover .owl-controls .owl-nav .owl-prev { opacity: 0.7; left: 0px; }
+.simple-theme.wp-posts-carousel:hover .owl-controls .owl-nav .owl-next  { opacity: 0.7; right: 0px; }
+.simple-theme.wp-posts-carousel:hover .owl-controls .owl-nav .owl-prev:hover,
+.simple-theme.wp-posts-carousel:hover .owl-controls .owl-nav .owl-next:hover { opacity: 1; color: #6E95B6; }
+
+/*
+* dots
+*/
+.simple-theme.wp-posts-carousel .owl-dots { margin-top:10px;text-align:center; }
+.simple-theme.wp-posts-carousel .owl-dots .owl-dot { display: inline-block; zoom: 1; *display: inline; }
+.simple-theme.wp-posts-carousel .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 5px 7px; background: #d6d6d6; display: block; -webkit-backface-visibility: visible; -webkit-transition: opacity 200ms ease; -moz-transition: opacity 200ms ease; -ms-transition: opacity 200ms ease; -o-transition: opacity 200ms ease; transition: opacity 200ms ease; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; }
+.simple-theme.wp-posts-carousel .owl-dots .owl-dot.active span { background: #869791; }
+.simple-theme.wp-posts-carousel .owl-dots .owl-dot:hover span { transform: scale(1.3); }
