@@ -1,0 +1,8 @@
+Wordpress
+username: mindweb
+password: mindweb
+
+
+localhost: (pwd is empty by default)
+username: root
+password: 
